@@ -1,2 +1,4 @@
 # Metagenomics
-Analysis and tutorials i did to learn more about metagenomics
+Analysis and tutorials related to metagenomics
+
+## Diversity analysis
