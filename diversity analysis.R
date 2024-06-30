@@ -6,14 +6,6 @@ library("tibble")       # Needed for converting column to row names
 
 
 
-#dummy data for practise
-data("GlobalPatterns")
-
-GlobalPatterns
-GlobalPatterns |> 
-  otu_table() |> 
-  view()
-
 # transforming to phyloseq object -----------------------------------------
 
 # importing the required tables
@@ -41,7 +33,7 @@ samples = sample_data(samples_df)
 carbom <- phyloseq(OTU, TAX, samples)
 carbom
 
-# visualising data
+# visualizing data
 sample_names(carbom)
 rank_names(carbom)
 sample_variables(carbom)
